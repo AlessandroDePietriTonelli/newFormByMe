@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <h2>Validacion Js</h2>
+        </header>
+
+        <form id="formulario" onsubmit="formSubmit(event)">
+
+            <div class="form-control">
+                <label for="usuario">Nombre de usuario</label>
+                <input type="text" id="usuario">
+                <p></p>
+            </div>
+
+            <div class="form-control">
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+                <p></p>
+            </div>
+
+            <div class="form-control">
+                <label for="pass">Password</label>
+                <input type="password" id="pass">
+                <p></p>
+            </div>
+
+            <div class="form-control">
+                <label for="passConfirma">Confirmar Password</label>
+                <input type="password" id="passConfirma">
+                <p></p>
+            </div>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
